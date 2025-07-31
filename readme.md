@@ -44,7 +44,7 @@ A privacy-first journaling platform where users can write, encrypt, and store th
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/encrypted-journal-app.git
+git 'https://github.com/ibada13/OnlyYoursJournal'
 cd encrypted-journal-app
 ```
 
