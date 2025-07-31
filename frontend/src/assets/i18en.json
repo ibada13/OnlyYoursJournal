@@ -1,0 +1,143 @@
+{
+  "translation": {
+        "landing_page":{
+      "hero":{
+            "title": "Welcome to Your Private Journal",
+            "subtitle": "Encrypted. Secure. Just for You.",
+                  "cta": "Get Started"
+      },
+       "why": {
+      "title": "Why Journaling Matters",
+      "subtitle": "It’s not just writing — it’s how you clear your mind, grow emotionally, and stay grounded.",
+      "points": {
+        "reflect": {
+          "title": "Self-Reflection",
+          "desc": "Get thoughts out of your head and onto the page. See patterns. Understand yourself."
+        },
+        "growth": {
+          "title": "Mental Growth",
+          "desc": "Writing regularly helps you process emotions, set goals, and move forward intentionally."
+        },
+        "peace": {
+          "title": "Clarity & Peace",
+          "desc": "Journaling calms the chaos. It gives you clarity in a noisy world."
+        }
+      }},
+       "features": {
+    "title": "Powerful Features Built for You",
+    "subtitle": "Everything you need for a private and meaningful journaling experience.",
+    "privacy": {
+      "title": "Private & Encrypted",
+      "desc": "Your entries are end-to-end encrypted. Only you can read them."
+    },
+    "dailyLogs": {
+      "title": "Daily Entries",
+      "desc": "Log your thoughts daily with simple, calming prompts."
+    },
+    "insights": {
+      "title": "Track Your Growth",
+      "desc": "See patterns, moods, and progress over time."
+    }
+  },
+  "footer":{
+      "right": "© {{year}} All rights reserved."
+  }
+    },
+    "logo": "YourJournals",
+    "welcome": "Welcome.",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "enter_name": "Enter your name",
+    "confirm_password": "Confirm Password",
+    "enter_email": "Enter your email",
+    "enter_password": "Enter your password",
+    "enter_confirm_password": "Confirm your password",
+    "submit": "Submit",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "new_journal": "Add New Journal.",
+    "created_at": "Created at",
+    "updated_at": "Updated at",
+    "title": "Title",
+    "enter_title": "Give your journal a title",
+    "enter_journal": "Write what’s on your mind today",
+    "save_journal": "Save your journal",
+    "loading": "Loading...",
+    "trash": "Trash It",
+    "edit": "Edit",
+    "update_journal": "Edit your journal",
+    "error_loading": "Failed to load journals. Please check your connection or try again later.",
+    "loading_journals": "Loading your journals...",
+    "no_journals": "No Journals found.",
+    "journal_created_successfully": "Journal created successfully!",
+    "journal_editing_not_implemented": "Edit feature not implemented yet.",
+    "server_error": "Server error occurred",
+    "no_response_from_server": "No response from server. Check your connection.",
+    "unexpected_error": "Unexpected error occurred",
+    "date": "date",
+    "cancel": "Cancel",
+    "profile": "Profile",
+   "actions":{
+      "delete_all_journals_title": "Delete All Journals" ,
+      "delete_all_journals_description": "This will permanently delete all your journals. You cannot undo this action.",
+      "delete_all_journals_button": "Delete All Journals" ,
+      "delete_account_title": "Delete Account" ,
+      "delete_account_description": "Deleting your account will remove all your data, including journals and settings. This cannot be undone.",
+      "delete_account_button": "Delete My Account",
+     "delete_everything": "To confirm this action, please type \"{{prompt}}\".",
+      "delete_account": "To confirm account deletion, please type \"{{prompt}}\".",
+        "deleted_account": "Your account was deleted successfully.",
+          "deleted_journals": "All your journals were deleted successfully."
+   },
+"settings":{
+
+  "profile":{
+          "save_changes": "Save changes",
+      "change_email":"Change Your Email.",
+      "change_name":"Change Your Name.",
+
+  "email_saved": "Your email was saved successfully.",
+  "name_saved": "Your name was saved successfully."
+  },
+  "languages":{
+        "select_language": "Choose any language you want:",
+        "language" :"Language",
+        "arabic":"Arabic",
+        "english":"English"
+  }
+},
+  "side_nav": {
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "actions": "Actions",
+    "settings": "Settings"
+  },
+    "auth": {
+      "unauthorized": "Unauthorized access. Please check your login details."
+    },
+    "error": {
+    "validation_failed": "Please check the entered data.",
+    "bad_request": "Bad request.",
+    "unauthorized": "You are not authorized to access this.",
+    "forbidden": "You are not allowed to perform this action.",
+    "not_found": "The requested item was not found.",
+    "too_many_attempts": "Too many attempts. Please try again later.",
+    "server_error": "A server error occurred.",
+    "unexpected": "Something went wrong.",
+    "generic": "An unexpected error occurred.",
+    "unknown": "An unknown error occurred."
+  },
+    "journal": {
+      "journal": "Journal",
+      "confirm_del": "Confirm Deletion",
+      "confirm_del_msg": "To delete this journal titled \"{{prompt}}\", please type the title below.",
+      "delete_success": "Journal deleted successfully."
+    },
+      "delete_account_request": "Forgot your password? You can request to delete your account here.",
+  "delete_account_request_title": "Request Account Deletion",
+    "send_link": "Send Link",
+      "email_sent": "Email has been sent"
+  }
+}

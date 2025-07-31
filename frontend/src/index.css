@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-secondary: var(--secondary);
+  --color-fg: var(--fg);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-highlight: var(--highlight);
+}
+
+:root {
+  --bg: oklch(0.98 0.01 270);
+  --secondary: 		oklch(0.93 0.01 270);
+  --fg: oklch(0.22 0.01 270);
+  --accent: oklch(0.68 0.12 253.21);
+  --accent-hover: oklch(0.62 0.14 253.21);
+  --muted: oklch(0.88 0.005 270);
+  --border: oklch(0.78 0.005 270);
+  --highlight: oklch(0.93 0.03 253.21);
+}
+
+[data-theme='dark'] {
+  --bg: #070606;
+--secondary: oklch(0.25 0.015 270);
+  --fg: oklch(0.94 0.005 270);
+  --accent: oklch(0.652 0.1901 253.21);
+  --accent-hover: oklch(0.72 0.20 253.21);
+  --muted: oklch(0.45 0.005 270);
+  --border: oklch(0.35 0.005 270);
+  --highlight: oklch(0.56 0.04 253.21);
+}
+
+
+[dir="rtl"] #logo{
+  font-family: "Aref Ruqaa";
+}
+[dir="ltr"] #logo {
+  font-family: "Dancing Script";
+} 
+body{
+  font-family: "Cairo",sans-serif ;
+}
